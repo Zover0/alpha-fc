@@ -1,0 +1,11 @@
+server:
+  port: 8085
+  servlet:
+   context-path: /alpha-fc
+
+spring:
+  application:
+    name: alpha-fc
+    version: @project.version@
+  profiles:
+    active: dev
